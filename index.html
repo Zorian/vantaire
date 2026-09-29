@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vantaire | Commercial Air Conditioning &amp; HVAC BMS Controls</title>
+<title>Airhandl | Commercial Air Conditioning &amp; HVAC BMS Controls</title>
 <meta name="description" content="AC not responding to the BMS? Zone too hot or too cold? VRF unit tripping on fault? We fix commercial air conditioning and HVAC BMS integrations, controls and faults. 24/7 emergency, same-day callout.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -11,12 +11,11 @@
 {
 "@context": "https://schema.org",
 "@type": "LocalBusiness",
-"@id": "https://vantaire.co.uk/#business",
-"name": "Vantaire",
+"@id": "https://airhandl.com/#business",
+"name": "Airhandl",
 "description": "Commercial air conditioning and HVAC BMS integration, zone control and fault diagnostics for commercial and industrial buildings in the UK.",
-"url": "https://vantaire.co.uk",
+"url": "https://airhandl.com",
 "telephone": "+44-20-3488-5210",
-"email": "hello@vantaire.co.uk",
 "priceRange": "££",
 "address": {
 "@type": "PostalAddress",
@@ -64,7 +63,7 @@
 "name": "Who fixes commercial air conditioning BMS faults?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Vantaire diagnoses and repairs air conditioning faults at the BMS level, including sensor, actuator and controller issues, for commercial and industrial buildings across the UK. 24/7 emergency, same-day callout available."
+"text": "Airhandl diagnoses and repairs air conditioning faults at the BMS level, including sensor, actuator and controller issues, for commercial and industrial buildings across the UK. 24/7 emergency, same-day callout available."
 }
 },
 {
@@ -80,7 +79,7 @@
 "name": "Can an existing BMS control multiple AC units centrally?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Yes. Vantaire integrates multiple AC and VRF/VRV units into a single BMS head-end, giving centralised scheduling, zone control and alarm reporting from one interface."
+"text": "Yes. Airhandl integrates multiple AC and VRF/VRV units into a single BMS head-end, giving centralised scheduling, zone control and alarm reporting from one interface."
 }
 },
 {
@@ -96,7 +95,7 @@
 "name": "How much does commercial HVAC BMS repair cost?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Cost depends on the fault type, the number of zones affected and the existing BMS platform. Vantaire provides a fixed quote after a site survey."
+"text": "Cost depends on the fault type, the number of zones affected and the existing BMS platform. Airhandl provides a fixed quote after a site survey."
 }
 },
 {
@@ -112,7 +111,7 @@
 "name": "Do you work on VRF and VRV systems tied into a BMS?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Yes. Vantaire works on VRF and VRV systems integrated with Trend, Tridium/Niagara, Honeywell, Schneider EcoStruxure and Johnson Controls Metasys, regardless of who installed the original system."
+"text": "Yes. Airhandl works on VRF and VRV systems integrated with Trend, Tridium/Niagara, Honeywell, Schneider EcoStruxure and Johnson Controls Metasys, regardless of who installed the original system."
 }
 },
 {
@@ -242,11 +241,55 @@ h1{font-size:36px;}
 nav{display:none;}
 }
 </style>
+
+<style id="callout-css">
+  @media (max-width:800px){.services{grid-template-columns:minmax(0,1fr) !important;}.service{min-width:0;overflow-wrap:anywhere;}}
+  #callout{--c-panel:#101820;--c-field:#0A1014;--c-ink:#E8F1F2;--c-dim:#7E979E;--c-accent:#3FD2E0;--c-accent-ink:#04181B;--c-line:#1E2A30;--c-focus:#FF6B35;}
+  #callout .co-grid{display:grid;grid-template-columns:minmax(0,0.85fr) minmax(0,1.4fr);gap:56px;align-items:start;}
+  #callout .co-next{margin:0;padding:0;list-style:none;counter-reset:co;}
+  #callout .co-next li{counter-increment:co;display:grid;grid-template-columns:28px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--c-line);color:var(--c-dim);font-size:0.95rem;line-height:1.5;}
+  #callout .co-next li::before{content:counter(co);font-family:var(--font-display);font-weight:700;color:var(--c-accent);font-size:1.05rem;}
+  #callout .co-next strong{display:block;color:var(--c-ink);font-weight:600;margin-bottom:2px;}
+  #callout .co-promise{margin:22px 0 0;color:var(--c-ink);font-size:0.95rem;}
+  #callout .co-call{display:inline-block;margin-top:14px;color:var(--c-ink);font-weight:600;text-decoration:none;border-bottom:1px solid var(--c-accent);padding-bottom:2px;}
+  #callout form{background:var(--c-panel);border:1px solid var(--c-line);padding:32px;border-radius:2px;}
+  #callout .co-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  #callout .co-f{display:flex;flex-direction:column;gap:7px;margin-bottom:18px;min-width:0;}
+  #callout label,#callout legend{font-size:0.88rem;font-weight:600;color:var(--c-ink);font-family:var(--font-body);}
+  #callout .co-opt{font-weight:400;color:var(--c-dim);}
+  #callout input[type=text],#callout input[type=tel],#callout input[type=email],#callout select,#callout textarea{
+    width:100%;background:var(--c-field);color:var(--c-ink);border:1px solid var(--c-line);border-radius:2px;
+    padding:12px 13px;font:inherit;font-size:0.97rem;font-family:var(--font-body);}
+  #callout textarea{min-height:118px;resize:vertical;}
+  #callout select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--c-dim) 50%),linear-gradient(135deg,var(--c-dim) 50%,transparent 50%);
+    background-position:calc(100% - 18px) 52%,calc(100% - 13px) 52%;background-size:5px 5px;background-repeat:no-repeat;padding-right:36px;}
+  #callout ::placeholder{color:var(--c-dim);opacity:0.75;}
+  #callout input:focus-visible,#callout select:focus-visible,#callout textarea:focus-visible,#callout button:focus-visible,#callout .co-chip input:focus-visible+span{outline:2px solid var(--c-focus);outline-offset:2px;}
+  #callout fieldset{border:0;padding:0;margin:0 0 18px;min-width:0;}
+  #callout legend{margin-bottom:9px;padding:0;}
+  #callout .co-chips{display:flex;flex-wrap:wrap;gap:8px;}
+  #callout .co-chip{position:relative;}
+  #callout .co-chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer;}
+  #callout .co-chip span{display:block;padding:9px 14px;border:1px solid var(--c-line);border-radius:2px;font-size:0.9rem;color:var(--c-ink);background:var(--c-field);cursor:pointer;}
+  #callout .co-chip input:checked+span{background:var(--c-accent);border-color:var(--c-accent);color:var(--c-accent-ink);font-weight:600;}
+  #callout input[type=file]{font-size:0.88rem;color:var(--c-dim);}
+  #callout input[type=file]::file-selector-button{font:inherit;font-size:0.88rem;margin-right:12px;padding:8px 14px;border:1px solid var(--c-line);background:var(--c-field);color:var(--c-ink);border-radius:2px;cursor:pointer;}
+  #callout .co-submit{width:100%;margin-top:6px;background:var(--c-accent);color:var(--c-accent-ink);border:0;border-radius:2px;padding:15px 20px;font:inherit;font-weight:700;font-size:1rem;cursor:pointer;}
+  #callout .co-submit[disabled]{opacity:0.6;cursor:wait;}
+  #callout .co-small{margin:14px 0 0;font-size:0.82rem;color:var(--c-dim);}
+  #callout .co-hp{position:absolute;left:-9999px;}
+  #callout .co-done{background:var(--c-panel);border:1px solid var(--c-line);border-left:3px solid var(--c-accent);padding:32px;}
+  #callout .co-done h3{margin:0 0 10px;font-family:var(--font-display);font-size:1.3rem;color:var(--c-ink);}
+  #callout .co-done p{margin:0;color:var(--c-dim);}
+  #callout .co-err{margin:12px 0 0;color:var(--c-ink);font-size:0.9rem;border-left:3px solid var(--c-focus);padding-left:10px;}
+  @media(max-width:820px){#callout .co-grid{grid-template-columns:1fr;gap:36px;}#callout form{padding:22px;}}
+  @media(max-width:520px){#callout .co-row{grid-template-columns:1fr;gap:0;}}
+</style>
 </head>
 <body>
 <header>
 <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;width:100%;">
-<div class="logo">Vant<span>aire</span></div>
+<div class="logo">Air<span>handl</span></div>
 <nav>
 <a href="#services">Services</a>
 <a href="#faq">FAQ</a>
@@ -264,7 +307,7 @@ nav{display:none;}
 <p>Commercial air conditioning and HVAC BMS integration, zone control and fault diagnostics — designed, installed and commissioned by BMS engineers.</p>
 <div class="hero-ctas">
 <a href="tel:+442034885210" class="cta-btn">Call Us Now — 020 3488 5210</a>
-<a href="#services" class="btn-outline">See our services</a>
+<a class="btn-outline" href="#callout">Request a callout</a>
 </div>
 <div class="emergency-strip">
 <span class="dot"></span> 24/7 Emergency — Same-Day Callout
@@ -366,7 +409,7 @@ nav{display:none;}
 <div class="faq">
 <div class="faq-item">
 <h3>Who fixes commercial air conditioning BMS faults?</h3>
-<p>Vantaire diagnoses and repairs air conditioning faults at the BMS level, including sensor, actuator and controller issues, for commercial and industrial buildings across the UK. 24/7 emergency, same-day callout available.</p>
+<p>Airhandl diagnoses and repairs air conditioning faults at the BMS level, including sensor, actuator and controller issues, for commercial and industrial buildings across the UK. 24/7 emergency, same-day callout available.</p>
 </div>
 <div class="faq-item">
 <h3>Why has my aircon stopped responding to the BMS?</h3>
@@ -401,12 +444,93 @@ nav{display:none;}
 
 </div>
 
+
+<section id="callout">
+  <div class="wrap">
+    <div class="section-head">
+<div class="eyebrow">Request a callout</div>
+<h2>Tell us what the system is doing.</h2>
+</div>
+    <div class="co-grid">
+      <div>
+        <ol class="co-next">
+          <li><div><strong>An engineer calls you back</strong>They talk through what the system is doing and what's been tried.</div></li>
+          <li><div><strong>We diagnose</strong>Remotely where we can, or we book a site visit.</div></li>
+          <li><div><strong>You get a fixed quote</strong>Agreed with you before any work starts.</div></li>
+        </ol>
+        <p class="co-promise">Emergency requests get a call back straight away, 24/7. Everything else, the same working day.</p>
+        <a class="co-call" href="tel:+442034885210">Prefer to talk? Call 020 3488 5210</a>
+      </div>
+      <div id="co-wrap">
+        <form name="airhandl-callout" method="POST" data-netlify="true" netlify-honeypot="company-website" enctype="multipart/form-data" action="https://airhandl.netlify.app/" id="co-form">
+          <input type="hidden" name="form-name" value="airhandl-callout">
+          <input type="hidden" name="brand" value="Airhandl">
+          <p class="co-hp"><label>Leave this empty <input name="company-website" tabindex="-1" autocomplete="off"></label></p>
+          <div class="co-row">
+            <div class="co-f"><label for="co-name">Your name</label><input id="co-name" type="text" name="name" autocomplete="name" required></div>
+            <div class="co-f"><label for="co-phone">Phone</label><input id="co-phone" type="tel" name="phone" autocomplete="tel" required></div>
+          </div>
+          <div class="co-row">
+            <div class="co-f"><label for="co-company">Company <span class="co-opt">(optional)</span></label><input id="co-company" type="text" name="company" autocomplete="organization"></div>
+            <div class="co-f"><label for="co-email">Email <span class="co-opt">(for your written quote)</span></label><input id="co-email" type="email" name="email" autocomplete="email"></div>
+          </div>
+          <fieldset>
+            <legend>How urgent is it?</legend>
+            <div class="co-chips">
+            <label class="co-chip"><input type="radio" name="urgency" value="Emergency, down now" checked><span>Emergency, down now</span></label>
+            <label class="co-chip"><input type="radio" name="urgency" value="This week"><span>This week</span></label>
+            <label class="co-chip"><input type="radio" name="urgency" value="Planned works"><span>Planned works</span></label>
+            <label class="co-chip"><input type="radio" name="urgency" value="Quote only"><span>Quote only</span></label>
+            </div>
+          </fieldset>
+          <div class="co-row">
+            <div class="co-f"><label for="co-postcode">Site postcode</label><input id="co-postcode" type="text" name="postcode" autocomplete="postal-code" required></div>
+            <div class="co-f"><label for="co-platform">BMS platform</label><select id="co-platform" name="platform">
+            <option value="">Select if known</option>
+            <option>Trend</option>
+            <option>Tridium / Niagara</option>
+            <option>Honeywell</option>
+            <option>Schneider EcoStruxure</option>
+            <option>Johnson Controls Metasys</option>
+            <option>Cylon</option>
+            <option>Distech</option>
+            <option>Other</option>
+            <option>Not sure</option>
+            </select></div>
+          </div>
+          <div class="co-f"><label for="co-issue">What's going on?</label><textarea id="co-issue" name="issue" placeholder="e.g. VRF zones on floor 2 not responding to BMS setpoints, compressor tripping at night" required></textarea></div>
+          <div class="co-f"><label for="co-photo">Photo of the panel or fault <span class="co-opt">(optional, helps us diagnose faster)</span></label><input id="co-photo" type="file" name="photo" accept="image/*"></div>
+          <button class="co-submit" type="submit">Request a callout</button>
+          <p class="co-small">We only use these details to respond to your request.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer>
 <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;width:100%;flex-wrap:wrap;gap:16px;">
-<div>© 2026 Vantaire</div>
-<div>hello@vantaire.co.uk · 020 3488 5210 · 24/7 Emergency Callout</div>
+<div>© 2026 Airhandl</div>
+<div>020 3488 5210 · 24/7 Emergency Callout</div>
 </div>
 </footer>
 
+
+<script>
+(function(){
+  var f=document.getElementById('co-form');if(!f)return;
+  var wrap=document.getElementById('co-wrap');
+  function done(){wrap.innerHTML='<div class="co-done" role="status" tabindex="-1"><h3>Request received</h3><p>An engineer will call you back shortly. For anything urgent in the meantime, call 020 3488 5210.</p></div>';wrap.firstChild.focus();}
+  if(location.search.indexOf('sent=1')>-1){done();return;}
+  f.addEventListener('submit',function(e){
+    e.preventDefault();var b=f.querySelector('.co-submit');b.disabled=true;b.textContent='Sending...';
+    var old=f.querySelector('.co-err');if(old)old.remove();
+    fetch('https://airhandl.netlify.app/',{method:'POST',mode:'no-cors',body:new FormData(f)}).then(function(){done();}).catch(function(){
+      b.disabled=false;b.textContent='Request a callout';
+      var p=document.createElement('p');p.className='co-err';p.textContent='That didn\'t send. Check your connection and try again, or call 020 3488 5210.';f.appendChild(p);
+    });
+  });
+})();
+</script>
 </body>
 </html>
