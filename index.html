@@ -294,7 +294,7 @@ nav{display:none;}
 <nav>
 <a href="#services">Services</a>
 <a href="#faq">FAQ</a>
-<a href="tel:+442034885210" class="cta-btn">Call Us Now — 020 3488 5210</a>
+<a href="tel:+442081381031" class="cta-btn">Call Us Now — 020 8138 1031</a>
 </nav>
 </div>
 </header>
@@ -307,7 +307,7 @@ nav{display:none;}
 <h1>Airflow that answers to the <span class="hl">BMS</span>, not a mind of its own.</h1>
 <p>Commercial air conditioning and HVAC BMS integration, zone control and fault diagnostics — designed, installed and commissioned by BMS engineers.</p>
 <div class="hero-ctas">
-<a href="tel:+442034885210" class="cta-btn">Call Us Now — 020 3488 5210</a>
+<a href="tel:+442081381031" class="cta-btn">Call Us Now — 020 8138 1031</a>
 <a class="btn-outline" href="#callout">Request a callout</a>
 </div>
 <div class="emergency-strip">
@@ -460,7 +460,7 @@ nav{display:none;}
           <li><div><strong>You get a fixed quote</strong>Agreed with you before any work starts.</div></li>
         </ol>
         <p class="co-promise">Emergency requests get a call back straight away, 24/7. Everything else, the same working day.</p>
-        <a class="co-call" href="tel:+442034885210">Prefer to talk? Call 020 3488 5210</a>
+        <a class="co-call" href="tel:+442081381031">Prefer to talk? Call 020 8138 1031</a>
       </div>
       <div id="co-wrap">
         <form name="airhandl-callout" method="POST" data-netlify="true" netlify-honeypot="company-website" enctype="multipart/form-data" action="https://airhandl.netlify.app/" id="co-form">
@@ -512,7 +512,7 @@ nav{display:none;}
 <footer>
 <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;width:100%;flex-wrap:wrap;gap:16px;">
 <div>© 2026 Airhandl</div>
-<div>020 3488 5210 · 24/7 Emergency Callout</div>
+<div>020 8138 1031 · 24/7 Emergency Callout</div>
 </div>
 </footer>
 
@@ -521,14 +521,14 @@ nav{display:none;}
 (function(){
   var f=document.getElementById('co-form');if(!f)return;
   var wrap=document.getElementById('co-wrap');
-  function done(){wrap.innerHTML='<div class="co-done" role="status" tabindex="-1"><h3>Request received</h3><p>An engineer will call you back shortly. For anything urgent in the meantime, call 020 3488 5210.</p></div>';wrap.firstChild.focus();}
+  function done(){wrap.innerHTML='<div class="co-done" role="status" tabindex="-1"><h3>Request received</h3><p>An engineer will call you back shortly. For anything urgent in the meantime, call 020 8138 1031.</p></div>';wrap.firstChild.focus();}
   if(location.search.indexOf('sent=1')>-1){done();return;}
   f.addEventListener('submit',function(e){
     e.preventDefault();var b=f.querySelector('.co-submit');b.disabled=true;b.textContent='Sending...';
     var old=f.querySelector('.co-err');if(old)old.remove();
     fetch('https://airhandl.netlify.app/',{method:'POST',mode:'no-cors',body:new FormData(f)}).then(function(){done();}).catch(function(){
       b.disabled=false;b.textContent='Request a callout';
-      var p=document.createElement('p');p.className='co-err';p.textContent='That didn\'t send. Check your connection and try again, or call 020 3488 5210.';f.appendChild(p);
+      var p=document.createElement('p');p.className='co-err';p.textContent='That didn\'t send. Check your connection and try again, or call 020 8138 1031.';f.appendChild(p);
     });
   });
 })();
